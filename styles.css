@@ -1,0 +1,89 @@
+/* styles para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Alterado de height para min-height para garantir que a página cresça com o conteúdo */
+    margin: 0;
+    text-align: center;
+}
+
+/* styles para o cabeçalho */
+header {
+    background-color: #f2f2f2;
+    width: 100%;
+    padding: 20px;
+    position: fixed;
+    top: 0%;
+    z-index: 1000;
+    margin: 0 auto; /* Centraliza o cabeçalho horizontalmente */
+}
+
+/* styles para o título no cabeçalho */
+header h1 {
+    margin: 0;
+}
+
+/* styles para o texto de descrição no cabeçalho */
+header p {
+    margin: 10px 0;
+}
+
+/* styles para o conteúdo principal */
+main {
+    padding: 20px;
+    width: 80%;
+    margin-bottom: 10%;
+}
+
+/* styles para cada seção de destino turístico */
+.destination {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 10%;
+}
+
+/* styles para a imagem do destino turístico */
+.destination img {
+    width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* styles para a informação do destino turístico */
+.destination-info {
+    flex: 1;
+}
+
+/* styles para o título do destino turístico */
+.destination-info h2 {
+    margin-top: 0;
+}
+
+/* styles para o texto de descrição do destino turístico */
+.destination-info p {
+    margin-bottom: 10px;
+}
+
+/* styles para o link "Saiba mais" do destino turístico */
+.destination-info a {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+/* styles para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    width: 100%;
+    position:fixed;
+    bottom: 0%;
+    margin: 0 auto; /* Centraliza o rodapé horizontalmente */
+}
